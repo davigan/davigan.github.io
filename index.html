@@ -2,23 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>My Portfolio</title>
   </head>
-  <h1>Full Stack Development</h1>
-    <h2>David Gael</h2>
-  <body>
+    <body>
     <nav>
-      <ul class="nav">
-        <li href="#">Home</li>
-        <li href="">About me</li>
-        <li href="">Portfolio</li>
-        <li href="">Contact me</li>
-      </ul>
-        </nav>
+      <ol class="nav">
+        <li> <a href="#about-me"> About me </a></li>
+        <li> <a href="#portfolio"> Portfolio </a></li>
+        <li> <a href="#contact-me"> Contact me </a></li>
+      </ol>
+    </nav>
+    <h1>Full Stack Development</h1>
+    <h2>David Gael</h2>
+      <section id="about-me">
+      <h3>About Me</h3>
+      <p>Born in Argentina, music is my passion and.... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.lorem</p>
+      </section>
+      <section id="portfolio">
+      <h3>Portfolio</h3>
+      <p>Coming soon! Still working on it!</p>
+      </section>
+      <section id="contact-me">
+      <h3>Contact me</h3>
+      <form method="post">
+        <div>
+          <label> Name
+            <input type="text" name="name" required>
+          </label>
+      </div>
+      <div>
+        <label> Email <input type="email" name="email" required>
+        </label>
+      </div>
+      <div>
+        <textarea name="query" rows="15" cols="80" required>
+        </textarea>
+      </div>
+      <div>
+        <label>
+          <input type="submit" name="send">
+        </label>
+      </div>
+      </form>
+      </section>
   <footer class="links">
-  <i class="FB"></i>
-  <i class="Linkedin"></i>
-
+  <i class="FB"> <a href="https://www.facebook.com"></a></i>
+  <i class="Linkedin"> <a href="https://www.linkedin.com/in/davidgael22"></i>
+</footer>
   </body>
 </html>

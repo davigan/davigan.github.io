@@ -1,9 +1,47 @@
 body {
-  font:;
-  background-color: ;
+  background: linear-gradient(#082F5E,#006866);
+  font-family: 'Fjalla One', sans-serif;
+  color: #BEDDDB;
 }
 
 .nav{
   list-style-type: none;
   text-align: center;
-  font-size: 40px}
+  font-size: 25px;
+  margin-bottom: 300px;
+}
+.nav li {
+  display: inline;
+  margin: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #BEDDDB;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+h2 {
+  text-align: center;
+  font-size: 45px;
+}
+h3 {
+  font-size: 25px;
+  margin-top: 500px;
+  text-align: left;
+}
+p {
+  font-size: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+input {
+background-color: transparent;
+}
+textarea {
+  background-color: transparent;
+}
