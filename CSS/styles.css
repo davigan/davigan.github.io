@@ -1,47 +1,96 @@
 body {
-  background: linear-gradient(#082F5E,#006866);
+  background: linear-gradient(#011627, #367A87);
   font-family: 'Fjalla One', sans-serif;
-  color: #BEDDDB;
+  color: #AADDFF;
+  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
 }
 
 .nav{
   list-style-type: none;
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 300px;
+  font-size: 22px;
+  margin-bottom: 180px;
 }
+
 .nav li {
   display: inline;
-  margin: 60px;
+  margin: 150px;
 }
 
 a {
   text-decoration: none;
-  color: #BEDDDB;
+  color: #AADDFF;
+  text-shadow: 4px 4px 3px rgba(145, 151, 158, 0.68);
 }
+
 h1 {
   text-align: center;
   font-size: 60px;
+  color: #AADDFF;
+  margin-top: 85px;
+  margin-bottom: 250px;
+  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
 }
+
 h2 {
   text-align: center;
   font-size: 45px;
-}
-h3 {
-  font-size: 25px;
-  margin-top: 500px;
-  text-align: left;
-}
-p {
-  font-size: 20px;
+  color: #AADDFF;
+  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
 }
 
-label {
-  font-size: 18px;
+h3 {
+  font-size: 28px;
+  margin-top: 150px;
+  text-align: center;
 }
-input {
-background-color: transparent;
+#about-me {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 55px;
 }
-textarea {
-  background-color: transparent;
+
+p {
+  font-size: 22px;
+}
+
+#portfolio {
+  margin-top: 250px;
+  margin-bottom: 180px;
+  text-align: center;
+}
+
+.flex-footer {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  color: #AADDFF;
+  letter-spacing: 3px;
+  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
+}
+
+#copyright {
+  font-size: 13px;
+}
+
+.social {
+font-size: 1.5em;
+}
+
+.social .fa {
+  font-size: 1.5em;
+  transition: all 0.5s ease-out;
+  margin: 0 8px 0 8px;
+  color: #AADDFF;
+}
+
+.social .fa:hover {
+  transition: all 0.4s ease-in;
+  transform: scale(1.8);
+}
+
+.social a {
+  text-decoration: none;
 }
