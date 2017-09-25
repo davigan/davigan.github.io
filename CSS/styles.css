@@ -1,8 +1,22 @@
+.full {
+
+  background-color: rgba(0,0,0,0.4);
+}
+
 body {
-  background: linear-gradient(#011627, #367A87);
+  /*background: linear-gradient(#011627, #367A87);*/
+  /*background: linear-gradient(135deg, rgba(38,43,89,1) 0%, rgba(38,43,89,1) 4%, rgba(50,52,89,1) 18%, rgba(50,75,117,1) 39%, rgba(17,189,178,1) 86%, rgba(88,209,185,1) 99%, rgba(97,212,183,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262b59', endColorstr='#61d4b7', GradientType=1 );*/
+  /*background-image: url(../images/pixel.jpg);*/
+  background-image: url(../img/color-2174049.png);
+  /*background-color: grey;*/
+  background-size: cover !important;
+  font-size: 1rem;
   font-family: 'Fjalla One', sans-serif;
-  color: #AADDFF;
-  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
+  font-style: italic;
+  color: black;
+  text-shadow: 2px 2px 2px rgba(145, 151, 158, 0.68);
+  opacity: 0.8;
 }
 
 .nav{
@@ -19,25 +33,42 @@ body {
 
 a {
   text-decoration: none;
-  color: #AADDFF;
-  text-shadow: 4px 4px 3px rgba(145, 151, 158, 0.68);
+  color: black;
+  text-shadow: 2px 2px 2px rgba(145, 151, 158, 0.68);
+  opacity: 0.8;
 }
 
 h1 {
   text-align: center;
   font-size: 60px;
-  color: #AADDFF;
+  /*color: #AADDFF;*/
   margin-top: 85px;
   margin-bottom: 250px;
-  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
+  /*text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);*/
 }
 
 h2 {
-  text-align: center;
+  /*text-align: center;*/
   font-size: 45px;
-  color: #AADDFF;
-  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
+  /*color: #AADDFF;
+  text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);*/
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+/*.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}*/
 
 h3 {
   font-size: 28px;
@@ -66,7 +97,6 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px 0 20px;
-  color: #AADDFF;
   letter-spacing: 3px;
   text-shadow: 4px 4px 2px rgba(120, 209, 219, 0.48);
 }
@@ -83,7 +113,6 @@ font-size: 1.5em;
   font-size: 1.5em;
   transition: all 0.5s ease-out;
   margin: 0 8px 0 8px;
-  color: #AADDFF;
 }
 
 .social .fa:hover {
